@@ -1,0 +1,1 @@
+This is the thrid file and will be committed through normal command prompt. Happy Learning Git.
