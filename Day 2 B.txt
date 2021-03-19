@@ -1,0 +1,91 @@
+Agile Model
+Requirements Phase
+Design Phase
+Development Phase
+Testing Phase
+
+Git is a version control system
+
+Github is a cloud absed hosting service
+
+Merging different repos
+Developer 1 -> central repo -> developer 2
+Common Repository
+GitHub
+VCS
+Management of changes to documents, computer programs, large web sites, and other collections of information.
+
+Time -> Your project -> VCS
+
+SToring versions
+Snapshots of all versions are properly documented and stored
+Versions are also named accurately.
+
+Different Versions.
+Local Repo: Code 1 User 1
+Local Repo: COde 1 User 2
+
+Git Repo/Central Repo
+User 1 --- Version 1
+User 2 --- Version 2
+
+Git Way of storing and working
+Commit
+Staging- not yet committed, ready for commit.
+ GIt STores a commit object that contains a pointer to the snapshot of the content you staged This Object also contains name and email address. 
+
+
+
+Jenkins, Maven
+Jenkins is a continuous integration 
+ver 2.0.0.0 (Major minor build release)
+Each team is separate
+Features of Git
+Non linear
+branching
+Reliable
+Lightweight
+speed
+open source
+reliable
+secure - sha1 and HTTP 
+Economical - Release Under GPL License
+
+What is a repo?
+Directory Created using gitbash
+GIt BAsh
+
+mkdir LearnGit -> Create a new Directory
+pwd  ->Present Working Directory
+cd .. ->Go to previous directory
+cd \ -> GO to the main drive
+
+ls ->list the folders and files in the present working directory(PWD)
+
+ls -l -> long listing of files.
+
+
+
+touch shellfile.txt -> create a new file shellfile.txt
+
+notepad shellfile.txt ->Open shellfile.txt in notepad. 
+
+git config -l -> list all deatils about the git repository
+git config --global user.name "bhavinnirmal29" ->Set username in the git repository . THis will add global username.
+
+
+git status -> get the status of the local git repository
+
+git add . -> (Dot) means ALL. add my files to commit .
+
+git commit -m "First COmmit" -> MOdified(-m). COmmit my files to local Git Repository.
+
+git reset --HEAD
+
+git revert COMMIT ID
+
+git pull origin master
+
+TO unstage a file
+
+CHange a file first. eg windowsfile.txt
